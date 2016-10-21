@@ -79,5 +79,6 @@ public class MaquinaDeTiket
     public int obtenerTotal()
     {
         return total;
-    }    
+    }
+
 }

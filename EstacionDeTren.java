@@ -24,4 +24,12 @@ public class EstacionDeTren
 		totalDinero = totalDinero + maquina2.obtenerTotal();
     System.out.println(totalDinero);
 	}
+	
+ public void ventaBilletes()
+ {
+     maquina1.insertarDinero(500);
+     maquina1.imprimirTiket();
+     maquina2.insertarDinero(500);
+     maquina2.imprimirTiket();
+ }
 }
