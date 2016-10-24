@@ -27,9 +27,9 @@ public class EstacionDeTren
 	
  public void ventaBilletes()
  {
-     maquina1.insertarDinero(500);
+     maquina1.insertarDinero(300);
      maquina1.imprimirTiket();
-     maquina2.insertarDinero(500);
+     maquina2.insertarDinero(200);
      maquina2.imprimirTiket();
  }
 }

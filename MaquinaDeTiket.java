@@ -80,5 +80,10 @@ public class MaquinaDeTiket
     {
         return total;
     }
+    
+    public void fijarPrecio(int precionuevo)
+    {
+        precio = precionuevo;
+    }
 
 }
