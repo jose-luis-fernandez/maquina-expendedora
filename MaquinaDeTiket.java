@@ -85,5 +85,9 @@ public class MaquinaDeTiket
     {
         precio = precionuevo;
     }
-
+    
+    public void aviso()
+    {
+    System.out.println("Porfavor, inserte la cantidad correcta de dinero.");
+    }
 }
